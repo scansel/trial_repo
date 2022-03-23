@@ -14,6 +14,21 @@ int main(void)
 	{
 		printf("%d", ch);
 	}
-	printf("\n");
+	while( ch > 'a')
+	{
+		printf("i am not done");
+	}
+	
+	int cch;
+
+        for (cch = 0; cch < 10; cch++)
+        {
+                printf("%d", cch);
+        }
+        while( cch > 'a')
+        {
+                printf("i am not done");
+        }
 	return (0);
+
 }
